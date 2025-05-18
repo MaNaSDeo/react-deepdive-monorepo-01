@@ -8,5 +8,16 @@
   "private": true,
   "devDependencies": {
     "lerna": "^8.2.2"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/react"
+    ]
+  },
+  "scripts": {
+    "build": "yarn lerna run build"
   }
 }
