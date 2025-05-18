@@ -1,0 +1,12 @@
+{
+  "name": "@manas/monorepo-deep-dive",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MaNaSDeo/react-deepdive-monorepo-01.git",
+  "author": "MaNaSDeo <rmnslogin@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^8.2.2"
+  }
+}
